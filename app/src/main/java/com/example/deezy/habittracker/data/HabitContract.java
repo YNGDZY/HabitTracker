@@ -17,7 +17,7 @@ public final class HabitContract {
         public static final String _ID = BaseColumns._ID;
         public static final String COLUMN_NAME = "Name";
         public static final String COLUMN_AGE = "Age";
-        public static final String COLUMN_MARITAL_STATUS = "Marital Status";
+        public static final String COLUMN_MARITAL_STATUS = "Marital_Status";
         public static final String COLUMN_EXERCISE = "Exercise";
         public static final String COLUMN_WORK = "Work";
         public static final String COLUMN_STUDY = "Study";

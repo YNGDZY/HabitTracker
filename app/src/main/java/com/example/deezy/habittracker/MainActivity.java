@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    private void displayDatabaseInfo() {
+    private Cursor displayDatabaseInfo() {
 
 
         SQLiteDatabase db = mDbHelper.getReadableDatabase();
@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         };
 
         Cursor cursor = db.query(HabitEntry.TABLE_NAME, projection, null, null, null, null, null, null);
+        return cursor;
     }
 
     private void insertHabit() {
